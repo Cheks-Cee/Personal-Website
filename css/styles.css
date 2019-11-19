@@ -1,0 +1,68 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* style="background-color: #D0FFE6; */
+
+.bg-choice{
+    background-color: #e3f2fd;
+}
+.helen{
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    
+    /* font-weight: bold; */
+    /* color: linear-gradient(rgb(255,20,147),rgb(0,118,153))!important; */
+}
+
+@keyframes colorOfText{
+    0% {color:rgb(255,20,147) }
+    100% {color: rgb(0,118,153)}
+}
+
+.helen{
+    animation-name: colorOfText;
+    animation-duration: 8s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+
+.text-color{
+    color: #FFD0E9;
+    text-shadow: 0 4px 4px rgba(0,0,0,0.2);
+}
+ main, #skills{
+    /* background-image: linear-gradient(rgba(227,242,253, 0.3),rgba(227,242,253, 0.3)),url(https://res.cloudinary.com/helencee/image/upload/e_saturation:-71,q_66/v1567006134/first%20images/code_background_g1i892.png); */
+    height: 71vh;
+ }
+
+ .skill-h1{
+    font-family: 'Lobster', cursive;
+    font-family: 'Acme', sans-serif;
+    font-size: 50px; 
+    margin-top: 5vh;
+
+ }
+ #myImg{
+     border-radius: 50%;
+     /* width: 30vw;
+     height: 60vh; */
+     max-width: 100%;
+     display: block;
+     height: auto;
+ }
+ .inpt{
+     width: 30vw;
+ }
+
+ #message{
+     height: 16vh;
+ }
+
+
+ .shadow{
+     box-shadow: 0 4px 4px 4px black;
+ }
