@@ -86,6 +86,8 @@ body{
  } */
 
  footer{
+    /* position: fixed;
+    bottom:0px!important; */
      /* height: 6.4vh; */
      height: 10%;
      /* padding: 5px; */
@@ -106,9 +108,11 @@ body{
  }
 
 
- /* @media screen and (min-width: 1100px){
+ /* @media screen and (max-width: 1000px){
      footer{
-        height: 50vh;
+        position: fixed;
+        bottom: 0px;
+        padding-top: 2rem;
      }
  } */
 
@@ -127,6 +131,14 @@ body{
      
  }
 
+ @media screen and (max-width: 380px){
+    footer{
+        font-size: 14px;
+        height: 25.5vh;
+    }
+    
+}
+
  @media screen and (max-width: 300px){
     footer{
         font-size: 14px;
@@ -139,3 +151,4 @@ body{
     }
     
 }
+
