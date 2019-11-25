@@ -18,14 +18,18 @@ body{
 }
 
 @keyframes colorOfText{
-    0% {color:rgb(255,20,147) }
+    0% {color: #6f0038}
+    /* {color:rgb(255,20,147) } */
+    20%{color: #b7005c;}
+    50%{color: #f3007a;}
+    75%{color: rgb(47, 176, 219)}
     100% {color: rgb(0,118,153)}
 }
 
 .helen{
     animation-name: colorOfText;
-    animation-duration: 8s;
-    animation-iteration-count: 2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
@@ -36,9 +40,10 @@ body{
 }
  main, #skills{
     /* background-image: linear-gradient(rgba(227,242,253, 0.3),rgba(227,242,253, 0.3)),url(https://res.cloudinary.com/helencee/image/upload/e_saturation:-71,q_66/v1567006134/first%20images/code_background_g1i892.png); */
-    height: 71vh;
+    height: 78vh;
  }
 
+ 
  .skill-h1{
     font-family: 'Lobster', cursive;
     font-family: 'Acme', sans-serif;
@@ -54,15 +59,72 @@ body{
      display: block;
      height: auto;
  }
+
+ .girl{
+
+ }
  .inpt{
      width: 30vw;
  }
 
+ .cont{
+    height: 100vh!important;
+ }
  #message{
-     height: 16vh;
+     height: 14vh;
  }
 
 
- .shadow{
+ /* .shadow{
      box-shadow: 0 4px 4px 4px black;
+ } */
+
+ footer{
+     /* height: 6.4vh; */
+     height: 10%;
+     /* padding: 5px; */
+     background-color: blue !important;
+     width: 100%;
  }
+
+ form{
+     width: 40vw;
+     padding-left: 3rem;
+     box-shadow: 0 4px 4px 4px rgba(0,0,0,0.2);
+     
+ }
+
+
+ /* @media screen and (min-width: 1100px){
+     footer{
+        height: 50vh;
+     }
+ } */
+
+ @media screen and (max-width: 700px){
+     footer{
+         /* min-height: 18vh; */
+         background-color: green!important;
+     }
+ }
+
+ @media screen and (max-width: 400px){
+     footer{
+         font-size: 14px;
+         height: 24vh;
+     }
+     
+ }
+
+ @media screen and (max-width: 300px){
+    footer{
+        font-size: 14px;
+        height: 31vh;
+    }
+
+    .soc{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
