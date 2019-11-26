@@ -103,7 +103,8 @@ body{
  form{
      /* width: 40vw; */
      padding-left: 3rem;
-     box-shadow: 0 10px 20PX rgb(141, 134, 134);
+     /* box-shadow: 0 10px 20PX rgb(141, 134, 134); */
+     box-shadow: 0 10px 20PX rgb(126, 124, 124);
      
  }
 
