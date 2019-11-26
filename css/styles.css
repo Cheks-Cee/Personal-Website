@@ -103,18 +103,61 @@ body{
  form{
      /* width: 40vw; */
      padding-left: 3rem;
-     box-shadow: 0 4px 2px 4px rgba(202, 193, 193, 0.2);
+     box-shadow: 0 10px 20PX rgb(141, 134, 134);
      
  }
 
+ .lancers-img{
+     /* background: linear-gradient(rgb(87, 85, 85, 0.3 ), rgba( 87, 85, 85, 0.3)); */
+     
+ }
 
- /* @media screen and (max-width: 1000px){
-     footer{
-        position: fixed;
-        bottom: 0px;
-        padding-top: 2rem;
-     }
- } */
+ .img-container{
+     width: 100vw;
+     height: 50vh;
+     
+     /* position: absolute; */
+ }
+ .img-container::after{
+     content: "Lancers";
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: 'Pacifico', cursive;
+     font-size: 20px;
+     letter-spacing: 2px;
+     background: black;
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top:0;
+     left: 0;
+     opacity: 0;
+     transition: opacity 0.5s ease;
+ }
+
+ .img-container:hover::after{
+     opacity: 0.5;
+ }
+
+ .image1{
+     width: 103%;
+     height: 100%;
+ }
+
+ h1{
+     font-family: serif;
+     /* color: #4c6ba8; */
+ }
+ 
+ h2{
+    font-family: 'Pacifico', cursive;
+    color: #4c6ba8;
+ }
+
+
+ 
 
  @media screen and (max-width: 700px){
      footer{
